@@ -1,6 +1,6 @@
 
 object impuestos {
-    var valor = 210
+    var property valor = 210
 }
 
 class Entrada {
