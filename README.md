@@ -113,4 +113,6 @@ class Rock inherits Banda {
     override method precioExtra() = 10000
 }
 ```
-
+## Decisiones a comentar 
+ - Se decidió que el impuesto sea un objeto por fuera de la clase entrada, ya que se, según la consigna, se pide que sea posible cambiarlo en cualquier momento, y que debe ser el mismo para todas las entradas, en cuyo caso es mas pertinente colocarlo como un        objeto diferente.
+ - Se decidió por el uso de Sets en vez de listas con las bandas y los Asistentes para que no haya repetidos.
