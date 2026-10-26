@@ -29,7 +29,7 @@ class Vip {
 class Asistente {
     const property entradas = []
     var saldo
-    const property abono
+    const abono
 
     method puedeComprarEntrada() = saldo > 0
 
